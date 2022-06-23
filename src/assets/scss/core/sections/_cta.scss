@@ -6,9 +6,9 @@
 	}
 }
 
-.cta-slogan {
-	margin-bottom: $cta-slogan--padding-v__mobile;
-}
+// .cta-slogan {
+// 	margin-bottom: $cta-slogan--padding-v__mobile;
+// }
 
 @include media( '>medium' ) {
 
@@ -26,12 +26,12 @@
 		align-items: center;
 	}
 
-	.cta-slogan {
-		margin-bottom: $cta-slogan--padding-v__desktop;
+	// .cta-slogan {
+	// 	margin-bottom: $cta-slogan--padding-v__desktop;
 
-		.cta-split & {
-			margin-bottom: 0;
-			margin-right: $cta-slogan--padding-h__desktop;
-		}
-	}
+	// 	.cta-split & {
+	// 		margin-bottom: 0;
+	// 		margin-right: $cta-slogan--padding-h__desktop;
+	// 	}
+	// }
 }

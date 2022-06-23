@@ -54,7 +54,7 @@ const GenericSection = ({
   );
 }
 
-GenericSection.propTypes = propTypes;
+Generic Add PrescriptionpropTypes = propTypes;
 GenericSection.defaultProps = defaultProps;
 
 export default GenericSection;
