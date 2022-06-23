@@ -26,28 +26,28 @@ const Cta = ({
   ...props
 }) => {
 
-  const outerClasses = classNames(
-    'cta section center-content-mobile reveal-from-bottom',
-    topOuterDivider && 'has-top-divider',
-    bottomOuterDivider && 'has-bottom-divider',
-    hasBgColor && 'has-bg-color',
-    invertColor && 'invert-color',
-    className
-  );
+  // const outerClasses = classNames(
+  //   'cta section center-content-mobile reveal-from-bottom',
+  //   topOuterDivider && 'has-top-divider',
+  //   bottomOuterDivider && 'has-bottom-divider',
+  //   hasBgColor && 'has-bg-color',
+  //   invertColor && 'invert-color',
+  //   className
+  // );
 
-  const innerClasses = classNames(
-    'cta-inner section-inner',
-    topDivider && 'has-top-divider',
-    bottomDivider && 'has-bottom-divider',
-    split && 'cta-split'
-  );  
+  // const innerClasses = classNames(
+  //   'cta-inner section-inner',
+  //   topDivider && 'has-top-divider',
+  //   bottomDivider && 'has-bottom-divider',
+  //   split && 'cta-split'
+  // );  
 
   return (
     <section
       {...props}
-      className={outerClasses}
+      // className={outerClasses}
     >
-      <div className="container">
+      {/* <div className="container">
         <div
           className={innerClasses}
         >
@@ -64,7 +64,7 @@ const Cta = ({
             </Input>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }
